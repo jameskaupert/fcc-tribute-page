@@ -21,6 +21,7 @@ h2 {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
+  width: 100%;
 }
 
 /* Title Section */
@@ -35,7 +36,6 @@ h2 {
 
 .title,
 .subtitle {
-  min-width: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -90,11 +90,16 @@ h2 {
 }
 
 li {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+    line-height: 1.5rem;
 }
 
 li b {
-    font-weight: bold;
+    font-weight: 700;
+}
+
+li i {
+    font-style: italic;
 }
 
 /* Footer Section */
