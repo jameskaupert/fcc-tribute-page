@@ -1,0 +1,26 @@
+h1, h2, p, #img-caption, a {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+#title {
+    background-color: #3F51B5;
+    color: #ffffff;
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
