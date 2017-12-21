@@ -19,8 +19,22 @@ h1 {
     width: 100%;
     height: 12rem;
     display: flex;
+    flex-flow: column wrap;
+}
+
+.title, .subtitle {
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.title {
+    height: 8rem;
+    position: relative;
+    top: 1rem;
+}
 
+.subtitle {
+    height: 4rem;
+}
