@@ -1,0 +1,15 @@
+.wrapper {
+  width: 70%;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#img-div {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#image {
+  max-width: 100%;
+}
