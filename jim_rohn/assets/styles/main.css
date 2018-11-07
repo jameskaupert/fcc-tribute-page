@@ -1,15 +1,27 @@
 .wrapper {
-  width: 70%;
+  width: 60%;
   margin:auto;
   display: flex;
   flex-direction: column;
 }
 
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
 #img-div {
+  align-items: center;
   display: flex;
   flex-flow: column nowrap;
 }
 
 #image {
   max-width: 100%;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
