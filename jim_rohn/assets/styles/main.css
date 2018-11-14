@@ -1,6 +1,7 @@
 body {
   background-color: #25274D;
   color: #FEFFFF;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .wrapper {
@@ -8,11 +9,14 @@ body {
   margin:auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 h1 {
   font-size: 4rem;
   text-align: center;
+  padding: 2rem;
+  font-family: 'Crete Round', serif;
 }
 
 #img-div {
@@ -27,8 +31,40 @@ h1 {
   border: 5px solid #AAABB8;
 }
 
+#img-caption {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
 main {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+main h2 {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+.book-title {
+  font-style: italic;
+  color: white;
+}
+
+a:visited {
+  color: #ccc;
+}
+
+a:hover {
+  color: #abaa11;
+}
+
+footer {
+  padding: 2rem;
+  font-size: 1.2rem;
 }
